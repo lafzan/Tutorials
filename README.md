@@ -5,7 +5,7 @@
 ### DATACAMP PYTHON TUTORIALS
 Data Scientist Roadmap with Python Programming. Important for statistics
 
-### Intro to Python book by Deitel 
+### Intro to Python book by Deitel 
 This is introductory book for python programming.
 
 
