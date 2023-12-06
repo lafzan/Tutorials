@@ -1,8 +1,8 @@
 # MAIN README FILE FOR TUTORIALS
 
-## PYTHON TUTORIAL
+## PYTHON TUTORIAL
 
-### DATACAMP PYTHON TUTORIALS
+### DATACAMP PYTHON TUTORIALS
 Data Scientist Roadmap with Python Programming. Important for statistics
 
 ### Intro to Python book by Deitel 
