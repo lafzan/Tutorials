@@ -210,7 +210,12 @@ textarea:not([rows]) {
 .fs-600 {
   font-size: var(--fs-600);
 }
-
+.container {
+  --max-width: 1110px;
+  --padding: 1rem;
+  width: min(var(--max-width), 100% - var(--padding));
+  margin-inline: auto;
+}
 /* General Styling */
 
 body {
