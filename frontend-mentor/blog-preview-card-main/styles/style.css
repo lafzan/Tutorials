@@ -1,0 +1,58 @@
+:root {
+  /* COLOR */
+
+  --color-primary: hsl(47, 88%, 63%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-grey: hsl(0, 0%, 50%);
+  --color-neutral-black: hsl(0, 0%, 50%);
+
+  /* FONT */
+
+  --ff-primary: "Figtree", sans-serif;
+
+  --fs-text: 1rem;
+  --fs-heading: 1.5rem;
+  --fw-600: 600;
+  --fw-800: 800;
+}
+
+/* UTILITY CLASSES */
+
+/*BACKGROUND COLOR */
+
+.bg-color--primary {
+  background-color: var(--color-primary);
+}
+.bg-color--container {
+  background-color: var(--color-neutral-white);
+}
+
+/*TEXT COlOR */
+
+.text-color--heading {
+  color: var(--color-neutral-black);
+}
+
+.text-color--text {
+  color: var(--color-neutral-grey);
+}
+
+/*TEXT FONT WEIDTH */
+
+.fw--600 {
+  font-weight: var(--fw-600);
+}
+.fw--800 {
+  font-weight: var(--fw-800);
+}
+
+/* FONT SIZE*/
+
+.fs--text {
+  font-size: var(--fs-text);
+}
+.fs-heading {
+  font-size: var(--fs-heading);
+}
+
+/* GENERAL STYLING*/
