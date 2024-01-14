@@ -67,8 +67,9 @@ body {
 article {
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
   align-items: center;
+  min-height: 95svh;
 }
 .header {
   position: absolute;
@@ -86,34 +87,42 @@ article {
   background-color: var(--clr-white);
   border-radius: 20px;
   padding: 1rem;
+  margin-bottom: 2rem;
 }
 .card > * {
   padding: 1rem 0;
 }
-.container > * {
-  padding: 0.5rem 0;
-}
+
 .title {
   display: flex;
   gap: 1rem;
 }
 .question {
+  padding: 0.5rem 0;
   color: var(--clr-dark-purple);
   font-size: var(--fs-600);
   font-weight: var(--fw-lightly-bold);
   padding-right: 5rem;
 }
+.question p:hover {
+  color: var(--clr-grayish-purple);
+  cursor: pointer;
+}
 .answer {
   color: var(--clr-grayish-purple);
   font-size: var(--fs-400);
   font-weight: var(--fw-regular);
-  display: none;
+  transition: 0.5s;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 0;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  max-height: 10svh;
+  max-height: 5svh;
+  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -127,18 +136,13 @@ article {
   position: absolute;
   right: 0;
   transform: translate(-50%);
-  z-index: 1;
 }
 .active .answer {
-  display: block;
-  padding-right: 5rem;
+  height: 7rem;
+  padding: 0.5rem 0;
 }
 .active::before {
   content: url("../assets/images/icon-minus.svg");
-  position: absolute;
-  right: 0;
-  transform: translate(-50%);
-  z-index: 2;
 }
 
 @media (max-width: 520px) {
