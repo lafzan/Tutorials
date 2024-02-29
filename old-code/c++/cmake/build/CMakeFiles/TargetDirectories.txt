@@ -1,0 +1,6 @@
+/Users/macbook/Desktop/tutorials/c++/cmake/build/CMakeFiles/Tutorial.dir
+/Users/macbook/Desktop/tutorials/c++/cmake/build/CMakeFiles/edit_cache.dir
+/Users/macbook/Desktop/tutorials/c++/cmake/build/CMakeFiles/rebuild_cache.dir
+/Users/macbook/Desktop/tutorials/c++/cmake/build/MathFunctions/CMakeFiles/MathFunctions.dir
+/Users/macbook/Desktop/tutorials/c++/cmake/build/MathFunctions/CMakeFiles/edit_cache.dir
+/Users/macbook/Desktop/tutorials/c++/cmake/build/MathFunctions/CMakeFiles/rebuild_cache.dir
